@@ -1,0 +1,25 @@
+
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding:  10px;
+  background-color:grey;
+  color: black;
+  cursor: pointer;
+  transition: border-color 0.3s; 
+  margin-top: 20px;
+}
+button:hover{
+ 
+  background-color: beige;
+}
+
